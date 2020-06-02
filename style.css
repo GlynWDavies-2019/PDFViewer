@@ -2,8 +2,57 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Global Styles */
 
 body {
     font-family: 'Manrope',sans-serif;
+}
+
+/* Application Styles */
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-bar {
+    align-items: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.btn {
+    background-color: #FF7F50;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0.7rem 2rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.page-info {
+    margin-left: 1rem;
+}
+
+.error {
+    background-color: #FF4500;
+    color: #FFFFFF;
+    padding: 1rem;
 }
